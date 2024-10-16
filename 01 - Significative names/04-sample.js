@@ -1,6 +1,6 @@
-let fcr = function(a, b) {
-    return a + b;
+let somador = function(primeiroTermo, segundoTermo) {
+    return primeiroTermo + segundoTermo;
 }
 
-let rsl = fcr(3, 5);
-console.log(rsl);
+let resolucao = somador(3, 5);
+console.log(resolucao);
