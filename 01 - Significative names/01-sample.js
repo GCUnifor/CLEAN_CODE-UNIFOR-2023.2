@@ -1,13 +1,13 @@
-function h(a) {
-    let b = [];
-    for (let i = 0; i < a.length; i++) {
-        if (a[i] % 2 === 0) {
-            b.push(a[i]);
+function acharNumerosPares(numeros) {
+    let pares = [];
+    for (let i = 0; i < numeros.length; i++) {
+        if (numeros[i] % 2 === 0) {
+            pares.push(numeros[i]);
         }
     }
-    return b;
+    return pares;
 }
 
-let x = [1, 2, 3, 4, 5, 6];
-let y = h(x);
-console.log(y);
+let numerosParaAvaliar = [1, 2, 3, 4, 5, 6];
+let listaPares = acharNumerosPares(numerosParaAvaliar);
+console.log(listaPares);
