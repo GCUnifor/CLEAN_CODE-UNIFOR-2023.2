@@ -1,11 +1,11 @@
-let a = "João";
-let b = "Ana";
-let c = "Carlos";
+let primeiraPessoa = "João";
+let segundaPessoa = "Ana";
+let terceiraPessoa = "Carlos";
 
-function p() {
-    console.log(a);
-    console.log(b);
-    console.log(c);
+function exibirPessoas() {
+    console.log(primeiraPessoa);
+    console.log(segundaPessoa);
+    console.log(terceiraPessoa);
 }
 
-p();
+exibirPessoas();
